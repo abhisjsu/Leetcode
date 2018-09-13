@@ -21,6 +21,11 @@ Output:
 
 
 Beat %age: 100%
+
+"By the postOrderTraversal
+1. Invert Left Subtree
+2. Invert Right Subtree
+3. Swap the contents of the left and right reference"
 */
 
 /**

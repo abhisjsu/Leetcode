@@ -14,6 +14,11 @@ Output: [1,2,3]
 Follow up: Recursive solution is trivial, could you do it iteratively?
 
 Beat %age: 100%
+Solution:
+"By the preOrderTraversal take global List<Integer> output
+1. add root.val to output
+2. process left subtree
+3. process right subtree"
 */
 
 /**

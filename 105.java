@@ -18,11 +18,10 @@ Return the following binary tree:
     /  \
    15   7
 
-Beat %age = 99.23%
-Solution: "When either of of two nodes becomes equal to root,
-return the the value of root. Recursively calling this on the left and
-right subtree, if both return null mean current one is only common
-and return it. Else return non null value"
+Beat %age = 42.97%
+"Keep the track of preIndex in each recurive call and find the same
+value in the inorder, till all the elements in the preorder have been
+traversed OR instart >inEnd"
 */
 
 
