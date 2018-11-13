@@ -16,7 +16,7 @@ Output: -1
 Beat %age = 16.07%
 */
 
-class Solution {
+class ImplementStrStrProb28 {
     public int strStr(String haystack, String needle) {
 
         if(needle.equals("") || haystack.equals(needle))

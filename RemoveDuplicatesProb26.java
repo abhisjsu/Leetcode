@@ -7,7 +7,7 @@ array in-place with O(1) extra memory.
 Checked this solution from youtube
 */
 
-class Solution {
+class RemoveDuplicatesProb26 {
     public int removeDuplicates(int[] nums) {
 
         int length  = nums.length;

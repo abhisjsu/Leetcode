@@ -7,14 +7,14 @@ You may assume that each input would have exactly one solution, and you may not 
 import java.util.List;
 import java.util.ArrayList;
 
-class Solution {
+class TwoSumProb1 {
     public int[] twoSum(int[] nums, int target) {
-    
+
         Map<Integer,Integer> hmap = new HashMap<>();
         int result[] = new int[2];
         int lengthnums = nums.length;
         int diffIndex;
-        
+
         for(int i=0;i<lengthnums;i++)
         {
             diffIndex = hmap.get(target-nums[i]);
@@ -23,7 +23,7 @@ class Solution {
             {
                     result[1] = i;
                     result[0] = diffIndex;
-                    
+
                     return result;
             }
             else
@@ -31,7 +31,7 @@ class Solution {
                 hmap.put(nums[i],i);
             }
         }
-        
+
         return result;
 
     }

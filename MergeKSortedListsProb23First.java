@@ -19,7 +19,7 @@ Output: 1->1->2->3->4->4->5->6
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class MergeKSortedListsProb23First {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 

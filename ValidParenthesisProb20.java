@@ -11,7 +11,7 @@ Beat Percentage: 17.26
 
 */
 
-class Solution {
+class ValidParenthesisProb20 {
     public boolean isValid(String s) {
 
         char input[] = s.toCharArray();

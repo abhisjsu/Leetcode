@@ -2,7 +2,7 @@
 Beatc %age =
 */
 
-class Solution {
+class ImplementStrStrProb28Submission2 {
     public int strStr(String haystack, String needle) {
 
         if(needle.equals("") || haystack.equals(needle))
